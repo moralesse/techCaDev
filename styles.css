@@ -1,0 +1,63 @@
+.container {
+    margin: auto;
+    margin-top: 100px;
+    width: 800px;
+    height: 450px;
+    background-color: skyblue;
+
+}
+.container > div:nth-child(1) {
+    display: flex;
+    width: 600px;
+    height: 350px;
+    color: white;
+}
+
+.cars {
+    margin: auto;
+    align-content: center;
+    width: 200px;
+    height: 350px;
+    color: white;
+}
+ .cars > div {
+    margin-top: 40px;
+    padding: 10px;
+ }
+
+.svg {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    width: 30px;
+    height: 20px;
+    box-shadow: -10px 5px 10px;
+}
+
+.sedan {
+    margin: auto;
+    width: 200px;
+    height: 350px;
+    background-color: orange;
+}
+
+.btn {
+    background-color: white;
+    width: auto;
+    height: auto;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.suv {
+    margin: auto;
+    width: 200px;
+    height: 350px;
+    background-color: cadetblue;
+}
+
+.luxury {
+    margin: auto;
+    width: 200px;
+    height: 350px;
+    background-color: rgb(14, 46, 46);
+}
