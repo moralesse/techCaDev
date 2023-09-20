@@ -17,3 +17,7 @@ document.getElementById("UTCTime").innerHTML ="Time: " + hours +":"+ minutes + "
 timer();
 setInterval(timer, 1000);
 
+function redirect(){
+    document.getElementById("btn").addEventListener("click", redirect)
+     window.open("https://github.com/moralesse/techCaDev", '_blank');
+}
